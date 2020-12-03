@@ -2,22 +2,22 @@
 session_start();
 include './lib/class_mysql.php';
 include './lib/config.php';
-header('Content-Type: text/html; charset=UTF-8');  
+header('Content-Type: text/html; charset=UTF-8');
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LinuxStore</title>
-        <?php include "./inc/links.php"; ?>        
+        <title>Sistema ticketjh</title>
+        <?php include "./inc/links.php"; ?>
     </head>
-    <body>   
+    <body>
         <?php include "./inc/navbar.php"; ?>
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="page-header">
-                <h1 class="animated lightSpeedIn">LinuxStore <small>El Salvador</small></h1>
-                <span class="label label-danger">LinuxStore S.A de C.V</span>
+                <h1 class="animated lightSpeedIn">JHerrera <small>Colombia</small></h1>
+                <span class="label label-danger">Jherrera sas</span>
                 <p class="pull-right text-primary">
                   <strong>
                   <?php include "./inc/timezone.php"; ?>
@@ -40,7 +40,7 @@ header('Content-Type: text/html; charset=UTF-8');
                         <div class="col-sm-4">
                             <img src="./img/Stop.png" alt="Image" class="img-responsive"/><br>
                             <img src="./img/SadTux.png" alt="Image" class="img-responsive"/>
-                            
+
                         </div>
                         <div class="col-sm-7 text-center">
                             <h1 class="text-danger">Lo sentimos, la opción que ha seleccionado no se encuentra disponible</h1>
@@ -56,7 +56,7 @@ header('Content-Type: text/html; charset=UTF-8');
             }
         ?>
 
-        
+
       <?php include './inc/footer.php'; ?>
     </body>
 </html>
